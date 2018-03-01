@@ -1,8 +1,9 @@
 public class Sum {
 
     public static void main(String[] args) {
-
-        int num = 100, sum = 0;
+       Scanner sc=new Scanner(System.in());
+        int N=sc.nextint();
+        int num =N, sum = 0;
 
         for(int i = 1; i <= num; ++i)
         {
